@@ -1,0 +1,52 @@
+/* seletor globa= deleciona TODOS os elementos da página ou do determinado lugar.  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Seletor pela tag*/
+p {
+    color: brown;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+/* seletor pela class */
+.paragrafo {
+    border:1px solid #313638;
+    color: black;
+    margin-top: 1rem;
+}
+
+/* seletor pelo id */
+#titulo {
+    color: blueviolet;
+    margin-bottom: 1rem;
+}
+
+/* Seletor pelo atributo */
+input[type="password"] {
+    font-size: 1rem;
+}
+
+/*seletor por descendente*/
+.login-form input {
+    font: size 2rem;
+    color: blue;
+}
+
+
+/* seletor de filhos diretos */
+.login-form > input {
+        color: aquamarine;
+        width: 10rem;
+}
+
+/* pseudo-classes */
+.cadastro-form div:nth-of-type(2){
+   background: #00f;
+}
